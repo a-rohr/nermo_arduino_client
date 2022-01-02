@@ -29,10 +29,19 @@ Next to the electrical design changes, Nermo-Lite also has several CAD-model bas
 6. Slightly larger components to accommodate the un-modified servo motors (these require more space than the modified servo motors).
 7. Change of the leg mount flanges from hexagon to square for better compensation of tolerances.
 
+The parts are designed to be printed using a standard desktop 3d printer (FDM based).
+
 ## Bill of Material
 All prices below are based on EU prices. 
-|       Item                            | Quantity | Cost/Item (EUR) | Total (EUR) |
-| -------------                         | -------- | --------------  | ----------- |
-| DSM 44 Digital Servo                  |    11    |        5        |      55     | 
-| Adafruit 12-channel 16-bit PWM Driver |     1    |       5.99      |      5.99   |
-| ESP-01s                               |     1    |        2.5      |       2.5   |
+|       Item                               | Quantity | Cost/Item (EUR) | Total (EUR) |
+| -------------                            | -------- | --------------  | ----------- |
+| DSM 44 Digital Servo                     |    11    |        5.00     |    55.00    | 
+| Adafruit 12-channel 16-bit PWM Driver    |     1    |        5.99     |     5.99    |
+| ESP-01s                                  |     1    |        2.50     |     2.50    |
+| LiPo Buck Converter 6V/5A                |     1    |        9.99     |     9.99    |
+| PETG Filament for skeleton               |     1    |       23.99     |    23.99    |
+| LiPo 7.4V 500mAh                         |     1    |        6.99     |     6.99    |
+| Micro-circuit components                 |     1    |        4.00     |     4.00    |
+| Auxiliay components (screws, wires, ...) |     1    |       10.00     |    10.00    |
+| --------------------------------------   | -------- | --------------- | ----------- |
+|                                          |          |   TOTAL         |   118.46    |
