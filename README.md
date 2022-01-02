@@ -1,5 +1,5 @@
 # Nermo Arduino Client
-The arduino clinet is designed for Nermo-Lite. The arduino client running on the hardware model of Nermo that enables communication and control with the ROS backend of the mouse controller. 
+The arduino client is designed for Nermo-Lite. The arduino client running on the hardware model of Nermo that enables communication and control with the ROS backend of the mouse controller. The client does not handle the main controller computations. These are computed on a central computer using the [mouse_controller](https://github.com/a-rohr/nermo_compliant_robot_mouse) ROS modules.
 
 ## Nermo-Lite
 Nermo-Lite is a simpler, scaled-down version of Nermo that makes use of primarily off-the-shelf, unmodified components. The skeleton of Nermo has also been redesigned for Nermo-Lite to be printable on a regular desktop FDM printer, rather than the more complex and expensive SLS printers. 
