@@ -7,7 +7,11 @@ Nermo-Lite is a simpler, scaled-down version of Nermo that makes use of primaril
 
 Unlike Nermo, Nermo-Lite only uses 11 motors (vs. 13 on Nermo). The second spine flex motor and the head tilt motor have been omitted. Nermo-Lite also uses a simple ESP8266 as the hardware controller vs. the Raspberry Pi Zero of Nermo. Therefore, the local compute power of Nermo-Lite is fairly limited.
 
-[![Watch the video](https://img.youtube.com/vi/fbacgO9nQ_g/maxresdefault.jpg)](https://youtu.be/fbacgO9nQ_g)
+## Demonstration of Nermo-Lite
+Below are two videos of straight-line and turn tests conducted with Nermo-Lite.
+
+[![Watch the video](https://img.youtube.com/vi/fbacgO9nQ_g/hqdefault.jpg)](https://youtu.be/fbacgO9nQ_g)
+[![Watch the video](https://img.youtube.com/vi/1PTgjxwv2s/hqdefault.jpg)](https://youtu.be/1PTgjxwv2s)
 
 
 ## Electrical Setup
