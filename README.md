@@ -1,4 +1,4 @@
-# Nermo Arduino Client
+# Nermo-Lite with Arduino Client
 The arduino client is designed for Nermo-Lite. The arduino client running on the hardware model of Nermo that enables communication and control with the ROS backend of the mouse controller. The client does not handle the main controller computations. These are computed on a central computer using the [mouse_controller](https://github.com/a-rohr/nermo_compliant_robot_mouse) ROS modules.
 
 ## Nermo-Lite
