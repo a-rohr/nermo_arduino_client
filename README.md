@@ -43,5 +43,4 @@ All prices below are based on EU prices.
 | LiPo 7.4V 500mAh                         |     1    |        6.99     |     6.99    |
 | Micro-circuit components                 |     1    |        4.00     |     4.00    |
 | Auxiliay components (screws, wires, ...) |     1    |       10.00     |    10.00    |
-| --------------------------------------   | -------- | --------------- | ----------- |
 |                                          |          |   TOTAL         |   118.46    |
