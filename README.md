@@ -17,3 +17,22 @@ This here is a simplified schematic setup of the electrical components. A more u
 ## Important Client Setup
 
 The arduino client code is uploaded to the ESP-01s using a USB writer. Communication occurs with a local Wifi-Hotspot. Therefore, the SSID, password and ROS-Master IP needs to be updated. The ESP-01s connects to the ROS Master server running on the main computer (set with the server IPAddress) using the rosserial library from [here](http://wiki.ros.org/rosserial). The master computer then sends the desired servo commands via rosserial to the connected ESP-01s, which are then sent via I2C to the PWM Servo Driver. 
+
+## Hardware Changes Nermo-Lite
+Next to the electrical design changes, Nermo-Lite also has several CAD-model based updates. The most important updates can be summarized as follows:
+
+1. Simpler tendon routing in the spine
+2. Removal of second spine motor (and therefore closing the spine)
+3. Elimination of vertical spine axis
+4. Adding more cable routing options in the spine
+5. Simplification of various detail components throughout the mouse
+6. Slightly larger components to accommodate the un-modified servo motors (these require more space than the modified servo motors).
+7. Change of the leg mount flanges from hexagon to square for better compensation of tolerances.
+
+## Bill of Material
+All prices below are based on EU prices. 
+|       Item                            | Quantity | Cost/Item (EUR) | Total (EUR) |
+| -------------                         | -------- | --------------  | ----------- |
+| DSM 44 Digital Servo                  |    11    |        5        |      55     | 
+| Adafruit 12-channel 16-bit PWM Driver |     1    |       5.99      |      5.99   |
+| ESP-01s                               |     1    |        2.5      |       2.5   |
