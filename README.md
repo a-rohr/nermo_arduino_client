@@ -5,7 +5,10 @@ The arduino client is designed for Nermo-Lite. The arduino client running on the
 Nermo-Lite is a simpler, scaled-down version of Nermo that makes use of primarily off-the-shelf, unmodified components. The skeleton of Nermo has also been redesigned for Nermo-Lite to be printable on a regular desktop FDM printer, rather than the more complex and expensive SLS printers. 
 ![nermo-lite](https://user-images.githubusercontent.com/46085397/147863006-0376eea8-847f-4a26-bc2b-d0237f4897b4.png)
 
-Unlike Nermo, Nermo-Lite only uses 11 motors (vs. 13 on Nermo). The second spine flex motor and the head tilt motor have been omitted. Nermo-Lite also uses a simple ESP8266 as the hardware controller vs. the Raspberry Pi Zero of Nermo. Therefore, the local compute power of Nermo-Lite is fairly limited. 
+Unlike Nermo, Nermo-Lite only uses 11 motors (vs. 13 on Nermo). The second spine flex motor and the head tilt motor have been omitted. Nermo-Lite also uses a simple ESP8266 as the hardware controller vs. the Raspberry Pi Zero of Nermo. Therefore, the local compute power of Nermo-Lite is fairly limited.
+
+[![Watch the video](https://img.youtube.com/vi/fbacgO9nQ_g/hqdefault.jpg)](https://youtu.be/fbacgO9nQ_g)
+
 
 ## Electrical Setup
 FDM Nermo uses as many off-the-shelf components as possible and tries to reduce the amount of custom work. Nevertheless, a little bit of soldering & custom board making is required. The schematic of the main electrical components is shown in the diagram below. The 11 servo motors are then connected to the 3-pin pinouts of the PCA9685 driver board. 
