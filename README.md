@@ -11,7 +11,7 @@ Unlike Nermo, Nermo-Lite only uses 11 motors (vs. 13 on Nermo). The second spine
 Below are two videos of straight-line and turn tests conducted with Nermo-Lite.
 
 [![Watch the video](https://img.youtube.com/vi/fbacgO9nQ_g/hqdefault.jpg)](https://youtu.be/fbacgO9nQ_g)
-[![Watch the video](https://img.youtube.com/vi/1PTgjxwv2s/hqdefault.jpg)](https://youtu.be/1PTgjxwv2s)
+[![Watch the video](https://img.youtube.com/vi/G1PTgjxwv2s/hqdefault.jpg)](https://youtu.be/G1PTgjxwv2s)
 
 
 ## Electrical Setup
