@@ -1,5 +1,5 @@
-[![github-alex-rohregger](https://img.shields.io/badge/github-arohr-green.svg)](https://github.com/a-rohr) 
-[![repo-license](https://img.shields.io/github/license/arohr/nermo_lite_arduino_client)](https://tldrlegal.com/license/mit-license)
+[![github-alex-rohregger](https://img.shields.io/badge/github-a-rohr-green.svg)](https://github.com/a-rohr) 
+[![repo-license](https://img.shields.io/github/license/a-rohr/nermo_lite_arduino_client)](https://tldrlegal.com/license/mit-license)
 # Nermo-Lite with Arduino Client
 The arduino client is designed for Nermo-Lite. The arduino client running on the hardware model of Nermo that enables communication and control with the ROS backend of the mouse controller. The client does not handle the main controller computations. Instead, the control architecture runs on a main computer and communicates the servo control commands to the mouse wirelessly using the ROS TCP/IP communication backend.
 
