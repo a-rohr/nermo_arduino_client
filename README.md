@@ -56,4 +56,4 @@ All prices below are based on EU prices.
 |                                          |          |   TOTAL         |   118.46    |
 
 ## Contact
-[![github-alex-rohregger](https://img.shields.io/badge/github-josedonato-green.svg)](https://github.com/a-rohr) 
+[![github-alex-rohregger](https://img.shields.io/badge/github-arohr-green.svg)](https://github.com/a-rohr) 
