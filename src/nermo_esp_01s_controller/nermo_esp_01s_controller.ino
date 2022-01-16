@@ -25,13 +25,15 @@
 #define SDA 0
 
 // IP-Address of the ROS-Master PC
+// ********************************************************
+// TO-DO: Adjust this address to the IP of your ROS master
 IPAddress server(192, 168, 249, 18);
 WiFiClient client;
 
 /******************** SERVO DRIVERS *************************/
 // called this way, it uses the default address 0x40
 Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver();
-/**
+/**definitions for 200Hz servo control
 #define SERVOMIN  400 // this is the 'minimum' pulse length count (out of 4096)
 #define SERVOMAX  2200 // this is the 'maximum' pulse length count (out of 4096)
 */
@@ -40,7 +42,8 @@ Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver();
 #define SERVOMIN  105 // this is the 'minimum' pulse length count (out of 4096)
 #define SERVOMAX  650
 
-// Here are the zero positions set for the servos. Adjust these slightly if necessary
+// Here are the zero positions set for the servos. 
+// TO-DO: Adjust these slightly if necessary depending on stringing of the mouse
 #define m1_fl_zero 90
 #define m2_fl_zero 90
 #define m1_fr_zero 90
@@ -69,27 +72,24 @@ class WiFiHardware {
   WiFiHardware() {};
 
   void init() {
-    // do your initialization here. this probably includes TCP server/client setup
+    // Initialization here. this probably includes TCP server/client setup
     client.connect(server, 11411);
   }
 
   // read a byte from the serial port. -1 = failure
   int read() {
-    // implement this method so that it reads a byte from the TCP connection and returns it
-    //  you may return -1 is there is an error; for example if the TCP connection is not open
     return client.read();         //will return -1 when it will works
   }
 
   // write data to the connection to ROS
   void write(uint8_t* data, int length) {
-    // implement this so that it takes the arguments and writes or prints them to the TCP connection
     for(int i=0; i<length; i++)
       client.write(data[i]);
   }
 
   // returns milliseconds since start of program
   unsigned long time() {
-     return millis(); // easy; did this one for you
+     return millis();
   }
 };
 
@@ -98,6 +98,8 @@ class WiFiHardware {
 int q_values[12] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 std_msgs::Float32MultiArray temp;
 
+// ******************************************************
+// TO-DO: assign the credentials of the wireless network
 char ssid[] = "LOSTLITTLEROBOT";
 char pass[] = "mousewalk";
 
